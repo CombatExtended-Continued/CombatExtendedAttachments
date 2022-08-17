@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<name>Ak74 + Underbarrel Grenade Launcher</name>
+	<name>Combat Extended Attachments</name>
 	<author>CE Team</author>
-	<url>https://github.com/CombatExtended-Continued/CombatExtendedGuns</url>
-	<description>A gun for testing.</description>	
 	<supportedVersions>
 		<li>1.3</li>
-	</supportedVersions>
-	<packageId>CETeam.AK74GUBL</packageId>	
+	</supportedVersions>	
+	<packageId>CETeam.CombatExtendedAttachments</packageId>	
+	<url>https://github.com/CombatExtended-Continued/CombatExtendedAttachmetns</url>
+	<description>Version: 1.3.1.0\n\nAdds several new weapons to take advantage of CE underbarrel/secondary weapons.</description>	
 	<modDependencies>	
 	<li>
         <packageId>CETeam.CombatExtended</packageId>

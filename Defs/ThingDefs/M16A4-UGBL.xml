@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-  <!-- ==================== AK-74 GL ==================== -->
+  <!-- ==================== M16A4 GL ==================== -->
 
   <ThingDef ParentName="BaseMakeableGun">
-    <defName>CE_Gun_AK74GL</defName>
-    <label>AK-74</label>
+    <defName>CE_Gun_M16A4GL</defName>
+    <label>M16A4</label>
     <description>Ancient military weapon chambered for an intermediate cartridge, with an underbarrel 40mm grenade launcher. The simple design makes it easy to assemble and gives it high reliability.</description>
     <graphicData>
       <texPath>Things/Weapons/AK74_GL</texPath>
