@@ -3,7 +3,7 @@
 
   <!-- ==================== LeMat Revolver ==================== -->
 
-  <ThingDef ParentName="BaseHumanMakeableGun_CE">
+  <ThingDef ParentName="BaseMakeableGun">
     <defName>CE_Gun_LeMatRevolver</defName>
     <label>LeMat Revolver</label>
     <description>Ancient revolver designed for mounted soldiers, with a high capacity and an inner barrel capable of firing small shotgun shells.</description>
@@ -22,8 +22,8 @@
       <RangedWeapon_Cooldown>0.89</RangedWeapon_Cooldown>
     </statBases>
     <costList>
-      <Steel>45</Steel>
-      <ComponentIndustrial>4</ComponentIndustrial>
+      <Steel>40</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -41,7 +41,7 @@
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>9</magazineSize>
         <reloadTime>7.65</reloadTime>
-        <ammoSet>Bullet_44Magnum_FMJ</ammoSet>
+        <ammoSet>AmmoSet_44Magnum</ammoSet>
       </li>
       <li Class="CombatExtended.CompProperties_FireModes" />
       <li Class="CombatExtended.CompProperties_UnderBarrel">
@@ -68,8 +68,6 @@
       </li>       
     </comps>
     <weaponTags>
-      <li>CE_Sidearm</li>
-      <li>Revolver</li>
       <li>CE_OneHandedWeapon</li>
       <li>CE_AI_BROOM</li>
     </weaponTags>
@@ -99,12 +97,6 @@
         <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
       </li>
     </tools>
-    <modExtensions>
-      <li Class="CombatExtended.GunDrawExtension">
-        <DrawSize>0.92,0.92</DrawSize>
-        <DrawOffset>0.0,0.0</DrawOffset>
-      </li>
-    </modExtensions>
   </ThingDef>
 
 </Defs>

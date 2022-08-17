@@ -24,7 +24,7 @@
     <costList>
       <WoodLog>5</WoodLog>
       <Steel>30</Steel>
-      <ComponentIndustrial>2</ComponentIndustrial>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
@@ -40,8 +40,8 @@
       </li>
     </verbs>
     <weaponTags>
-      <li>IndustrialGunSimple</li>
       <li>CE_AI_AR</li>
+      <li>CE_OneHandedWeapon</li>      
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -51,20 +51,19 @@
       </li>
       <li Class="CombatExtended.CompProperties_FireModes">
         <aiUseBurstMode>TRUE</aiUseBurstMode>
-        <aiAimMode>AimedShot</aiAimMode>
-        <aimedBurstShotCount>3</aimedBurstShotCount>
+        <aiAimMode>Snapshot</aiAimMode>
       </li>
         <li Class="CombatExtended.CompProperties_UnderBarrel">
             <propsUnderBarrel>
               <magazineSize>1</magazineSize>
-              <reloadTime>3</reloadTime>
+              <reloadTime>2.6</reloadTime>
               <ammoSet>AmmoSet_545x39mmSoviet</ammoSet>
             </propsUnderBarrel>
             <verbPropsUnderBarrel>
               <verbClass>CombatExtended.Verb_ShootCE</verbClass>
               <hasStandardCommand>true</hasStandardCommand>
               <defaultProjectile>Bullet_545x39mmSoviet_FMJ</defaultProjectile>
-              <warmupTime>0.6</warmupTime>
+              <warmupTime>1.1</warmupTime>
               <range>12</range>
               <soundCast>Shot_AssaultRifle</soundCast>
               <soundCastTail>GunTail_Light</soundCastTail>
@@ -73,6 +72,7 @@
             <propsFireModesUnderBarrel>
               <aiUseBurstMode>FALSE</aiUseBurstMode>
               <aiAimMode>AimedShot</aiAimMode>
+              <aimedBurstShotCount>1</aimedBurstShotCount>  
             </propsFireModesUnderBarrel>
         </li>      
     </comps>
@@ -114,8 +114,8 @@
     </tools>
     <modExtensions>
       <li Class="CombatExtended.GunDrawExtension">
-        <DrawSize>1.0,1.05</DrawSize>
-        <DrawOffset>0.05,-0.10</DrawOffset>
+        <DrawSize>0.92,0.92</DrawSize>
+        <DrawOffset>0.0,0.0</DrawOffset>
       </li>
     </modExtensions>
   </ThingDef>

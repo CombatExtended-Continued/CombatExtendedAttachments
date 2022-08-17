@@ -5,30 +5,30 @@
 
   <ThingDef ParentName="BaseMakeableGun">
     <defName>CE_Gun_AK74GL</defName>
-    <label>AK-74</label>
-    <description>Ancient military weapon chambered for an intermediate cartridge, with an underbarrel 40mm grenade launcher. The simple design makes it easy to assemble and highly reliable.</description>
+    <label>AK-74 + GP-25</label>
+    <description>Ancient military weapon chambered for an intermediate cartridge with an underbarrel 40mm grenade launcher. The simple design makes it easy to assemble and highly reliable.</description>
     <graphicData>
-      <texPath>Things/Weapons/AK74_GL</texPath>
+      <texPath>Things/Weapons/AK-74_GL</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
-        <WorkToMake>27000</WorkToMake>
-        <Mass>4.57</Mass>
-        <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
-        <SightsEfficiency>1.00</SightsEfficiency>
-        <ShotSpread>0.08</ShotSpread>
-        <SwayFactor>1.25</SwayFactor>
-        <Bulk>12.03</Bulk>
+      <WorkToMake>27000</WorkToMake>
+      <Mass>4.57</Mass>
+      <RangedWeapon_Cooldown>0.36</RangedWeapon_Cooldown>
+      <SightsEfficiency>1.00</SightsEfficiency>
+      <ShotSpread>0.08</ShotSpread>
+      <SwayFactor>1.25</SwayFactor>
+      <Bulk>12.03</Bulk>
     </statBases>
     <costList>
         <WoodLog>10</WoodLog>
-        <Steel>95</Steel>
-        <ComponentIndustrial>8</ComponentIndustrial>
+        <Steel>75</Steel>
+        <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
-        <recoilAmount>1.43</recoilAmount>
+        <recoilAmount>1.18</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_545x39mmSoviet_FMJ</defaultProjectile>
@@ -46,7 +46,6 @@
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <weaponTags>
-      <li>IndustrialGunAdvanced</li>
       <li>CE_AI_AR</li>
     </weaponTags>
     <comps>
