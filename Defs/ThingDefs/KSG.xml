@@ -1,6 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
+  <!-- The gun doesn't like having the exact same AmmoSetDef in the underbarrel, so we cheat. -->
+  <CombatExtended.AmmoSetDef>
+    <defName>AmmoSet_12Gauge_KSG_UB</defName>
+    <label>12 Gauge</label>
+    <ammoTypes>
+      <Ammo_12Gauge_Buck>Bullet_12Gauge_Buck</Ammo_12Gauge_Buck>
+      <Ammo_12Gauge_Slug>Bullet_12Gauge_Slug</Ammo_12Gauge_Slug>
+      <Ammo_12Gauge_Beanbag>Bullet_12Gauge_Beanbag</Ammo_12Gauge_Beanbag>
+      <Ammo_12Gauge_ElectroSlug>Bullet_12Gauge_ElectroSlug</Ammo_12Gauge_ElectroSlug>
+    </ammoTypes>
+		<similarTo>AmmoSet_Shotgun</similarTo>
+  </CombatExtended.AmmoSetDef>
+
   <!-- ==================== KSG Shotgun ==================== -->
 
   <ThingDef ParentName="BaseMakeableGun">
@@ -44,6 +57,7 @@
     </thingSetMakerTags>
     <weaponTags>
       <li>CE_AI_AR</li>
+      <li>IndustrialGunAdvanced</li>      
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
@@ -59,7 +73,7 @@
             <propsUnderBarrel>
               <magazineSize>7</magazineSize>
               <reloadTime>6.45</reloadTime>
-              <ammoSet>AmmoSet_12Gauge</ammoSet>
+              <ammoSet>AmmoSet_12Gauge_KSG_UB</ammoSet>
             </propsUnderBarrel>
             <verbPropsUnderBarrel>
               <verbClass>CombatExtended.Verb_ShootCE</verbClass>
