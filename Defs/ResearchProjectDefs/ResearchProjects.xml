@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
+<!--
 	<ResearchProjectDef>
 	  <defName>UnderbarrelLaunchers</defName>
 	  <label>underbarrel weapons</label>
@@ -13,5 +13,5 @@
 	  <researchViewX>2</researchViewX>
 	  <researchViewY>4.25</researchViewY>
 	</ResearchProjectDef>
-
+-->
 </Defs>
