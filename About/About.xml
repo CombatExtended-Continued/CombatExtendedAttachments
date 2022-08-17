@@ -6,7 +6,7 @@
 		<li>1.3</li>
 	</supportedVersions>	
 	<packageId>CETeam.CombatExtendedAttachments</packageId>	
-	<url>https://github.com/CombatExtended-Continued/CombatExtendedAttachmetns</url>
+	<url>https://github.com/CombatExtended-Continued/CombatExtendedAttachments</url>
 	<description>Version: 1.3.1.0\n\nAdds several new weapons to take advantage of CE underbarrel/secondary weapons.</description>	
 	<modDependencies>	
 	<li>
