@@ -46,6 +46,7 @@
       <li>RewardStandardQualitySuper</li>
     </thingSetMakerTags>
     <weaponTags>
+      <li>IndustrialGunAdvanced</li>    
       <li>CE_AI_AR</li>
     </weaponTags>
     <comps>

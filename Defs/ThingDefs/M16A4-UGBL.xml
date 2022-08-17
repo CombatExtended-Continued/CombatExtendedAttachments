@@ -47,6 +47,7 @@
     </thingSetMakerTags>
     <weaponTags>
       <li>CE_AI_AR</li>
+      <li>IndustrialGunAdvanced</li>      
     </weaponTags>
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">

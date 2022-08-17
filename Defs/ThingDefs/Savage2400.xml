@@ -21,6 +21,9 @@
       <SwayFactor>1.32</SwayFactor>
       <Bulk>10</Bulk>
     </statBases>
+    <weaponClasses>
+      <li>LongShots</li>
+    </weaponClasses>    
     <costList>
       <WoodLog>10</WoodLog>
       <Steel>45</Steel>
@@ -76,7 +79,7 @@
         </li>      
     </comps>
     <recipeMaker>
-      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <researchPrerequisite>Gunsmithing</researchPrerequisite>
     </recipeMaker>
     <tools>
       <li Class="CombatExtended.ToolCE">
