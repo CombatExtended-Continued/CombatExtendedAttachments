@@ -30,6 +30,7 @@
     </recipeMaker>    
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>2.95</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_44Magnum_FMJ</defaultProjectile>
@@ -54,6 +55,7 @@
             <ammoSet>AmmoSet_20Gauge</ammoSet>
           </propsUnderBarrel>
           <verbPropsUnderBarrel>
+            <recoilAmount>3.88</recoilAmount>
             <verbClass>CombatExtended.Verb_ShootCE</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_20Gauge_Buck</defaultProjectile>
