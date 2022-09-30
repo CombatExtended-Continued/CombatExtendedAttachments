@@ -67,6 +67,7 @@
               <ammoSet>AmmoSet_40x46mmGrenade</ammoSet>
             </propsUnderBarrel>
             <verbPropsUnderBarrel>
+              <recoilAmount>2.51</recoilAmount>
               <verbClass>CombatExtended.Verb_ShootCE</verbClass>
               <hasStandardCommand>true</hasStandardCommand>
               <defaultProjectile>Bullet_40x46mmGrenade_HE</defaultProjectile>

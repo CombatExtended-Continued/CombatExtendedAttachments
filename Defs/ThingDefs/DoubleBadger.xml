@@ -28,6 +28,7 @@
     </costList>
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
+        <recoilAmount>0.84</recoilAmount>
         <verbClass>CombatExtended.Verb_ShootCE</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
         <defaultProjectile>Bullet_22LR_FMJ</defaultProjectile>
@@ -59,6 +60,7 @@
               <ammoSet>AmmoSet_20Gauge</ammoSet>
             </propsUnderBarrel>
             <verbPropsUnderBarrel>
+              <recoilAmount>2.84</recoilAmount>
               <verbClass>CombatExtended.Verb_ShootCE</verbClass>
               <hasStandardCommand>true</hasStandardCommand>
               <defaultProjectile>Bullet_20Gauge_Buck</defaultProjectile>
