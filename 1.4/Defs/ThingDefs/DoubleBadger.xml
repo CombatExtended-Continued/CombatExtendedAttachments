@@ -7,6 +7,7 @@
     <defName>CE_Gun_DoubleBadger</defName>
     <label>Double Badger</label>
     <description>Ancient combination rifle, with both a rifled and smoothbore barrel.</description>
+    <possessionCount>1</possessionCount>
     <graphicData>
       <texPath>Things/Weapons/Chiappa_Double_Badger</texPath>
       <graphicClass>Graphic_Single</graphicClass>
