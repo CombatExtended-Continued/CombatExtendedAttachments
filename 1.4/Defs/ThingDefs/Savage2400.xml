@@ -3,7 +3,7 @@
 
   <!-- ==================== Savage 2400 ==================== -->
 
-  <ThingDef ParentName="BaseMakeableGun">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_Savage_TwentyFourHundred</defName>
     <label>Savage 2400</label>
     <description>Ancient hunting weapon with barrels for firing both high-powered rifle rounds and shotgun shells.</description>

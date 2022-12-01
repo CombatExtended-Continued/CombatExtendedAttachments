@@ -3,7 +3,7 @@
 
   <!-- ==================== M16A4 GL ==================== -->
 
-  <ThingDef ParentName="BaseMakeableGun">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_M16A4GL</defName>
     <label>M16A4 + M203</label>
     <description>Ancient military weapon chambered for an intermediate cartridge with an underbarrel 40mm grenade launcher.</description>

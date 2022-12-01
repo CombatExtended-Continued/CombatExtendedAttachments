@@ -3,7 +3,7 @@
 
   <!-- ==================== AKM GL ==================== -->
 
-  <ThingDef ParentName="BaseMakeableGun">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_AKMGL</defName>
     <label>AKM + GP-25</label>
     <description>Ancient military weapon chambered for an intermediate cartridge with an underbarrel 40mm grenade launcher. The simple design makes it easy to assemble and highly reliable.</description>
