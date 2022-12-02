@@ -3,7 +3,7 @@
 
   <!-- ==================== TP-82 Survival Pistol ==================== -->
 
-  <ThingDef ParentName="BaseMakeableGun">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_TP_EightyTwo</defName>
     <label>TP-82</label>
     <description>Ancient survival weapon with two barrels capable of firing shotgun shells and a third chambered for an intermediate rifle cartridge.</description>

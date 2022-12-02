@@ -3,7 +3,7 @@
 
   <!-- ==================== Chiappa Double Badger ==================== -->
 
-  <ThingDef ParentName="BaseMakeableGun">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_DoubleBadger</defName>
     <label>Double Badger</label>
     <description>Ancient combination rifle, with both a rifled and smoothbore barrel.</description>

@@ -3,7 +3,7 @@
 
   <!-- ==================== LeMat Revolver ==================== -->
 
-  <ThingDef ParentName="BaseMakeableGun">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_LeMatRevolver</defName>
     <label>LeMat Revolver</label>
     <description>Ancient revolver designed for mounted soldiers, with a high capacity and an inner barrel capable of firing small shotgun shells.</description>

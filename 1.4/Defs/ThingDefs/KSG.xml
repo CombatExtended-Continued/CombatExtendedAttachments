@@ -11,12 +11,12 @@
       <Ammo_12Gauge_Beanbag>Bullet_12Gauge_Beanbag</Ammo_12Gauge_Beanbag>
       <Ammo_12Gauge_ElectroSlug>Bullet_12Gauge_ElectroSlug</Ammo_12Gauge_ElectroSlug>
     </ammoTypes>
-		<similarTo>AmmoSet_Shotgun</similarTo>
+    <similarTo>AmmoSet_Shotgun</similarTo>
   </CombatExtended.AmmoSetDef>
 
   <!-- ==================== KSG Shotgun ==================== -->
 
-  <ThingDef ParentName="BaseMakeableGun">
+  <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>CE_Gun_KSG</defName>
     <label>KSG</label>
     <description>Ancient pump shotgun with two tubes for shells, allowing the user to alternate ammo types without needing to reload.</description>
