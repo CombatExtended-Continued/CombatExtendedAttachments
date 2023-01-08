@@ -116,6 +116,12 @@
         <linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
       </li>
     </tools>
+    <modExtensions>
+      <li Class="CombatExtended.GunDrawExtension">
+        <DrawSize>1.2,1.2</DrawSize>
+        <DrawOffset>0.12,0.0</DrawOffset>
+      </li>
+    </modExtensions>
   </ThingDef>
 
 </Defs>
