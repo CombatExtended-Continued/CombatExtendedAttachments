@@ -47,6 +47,7 @@
     <comps>
       <li Class="CombatExtended.CompProperties_AmmoUser">
         <magazineSize>2</magazineSize>
+        <AmmoGenPerMagOverride>4</AmmoGenPerMagOverride>
         <reloadTime>4</reloadTime>
         <ammoSet>AmmoSet_20Gauge</ammoSet>
       </li>
