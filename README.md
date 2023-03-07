@@ -10,7 +10,7 @@ This mod adds several new firearms designed to take advantage of new the new und
 ### Shotguns
 - KSG
 ### Rifles
-- AK-74 + GP-25 Grenade Launcher
+- AKM + GP-25 Grenade Launcher
 - M16A4 + M203 Grenade Launcher
 - Chiappa Badger
 - Savage 2400
