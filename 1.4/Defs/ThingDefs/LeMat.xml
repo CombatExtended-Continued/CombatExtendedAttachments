@@ -28,6 +28,9 @@
     </costList>
     <recipeMaker>
       <researchPrerequisite>Gunsmithing</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>3</Crafting>
+      </skillRequirements>
     </recipeMaker>    
     <verbs>
       <li Class="CombatExtended.VerbPropertiesCE">
