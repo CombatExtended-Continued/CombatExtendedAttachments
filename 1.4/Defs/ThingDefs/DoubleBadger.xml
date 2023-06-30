@@ -68,7 +68,7 @@
               <defaultProjectile>Bullet_20Gauge_Buck</defaultProjectile>
               <warmupTime>0.6</warmupTime>
               <range>16</range>
-              <soundCast>Shot_Shotgun</soundCast>
+              <soundCast>Shot_Shotgun_NoRack</soundCast>
               <soundCastTail>GunTail_Medium</soundCastTail>
               <muzzleFlashScale>5</muzzleFlashScale>
             </verbPropsUnderBarrel>

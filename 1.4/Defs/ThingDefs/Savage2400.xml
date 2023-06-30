@@ -71,7 +71,7 @@
               <warmupTime>0.6</warmupTime>
               <range>16</range>
               <soundCast>Shot_Shotgun</soundCast>
-              <soundCastTail>GunTail_Medium</soundCastTail>
+              <soundCastTail>GunTail_Heavy</soundCastTail>
               <muzzleFlashScale>9</muzzleFlashScale>
             </verbPropsUnderBarrel>
             <propsFireModesUnderBarrel>
