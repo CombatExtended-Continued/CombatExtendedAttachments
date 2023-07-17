@@ -51,7 +51,7 @@
 				<reloadTime>7.65</reloadTime>
 				<ammoSet>AmmoSet_44Magnum</ammoSet>
 			</li>
-			<li Class="CombatExtended.CompProperties_FireModes"/>
+			<li Class="CombatExtended.CompProperties_FireModes" />
 			<li Class="CombatExtended.CompProperties_UnderBarrel">
 				<propsUnderBarrel>
 					<magazineSize>1</magazineSize>
