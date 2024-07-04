@@ -4,7 +4,7 @@
 	<author>CE Team</author>
 	<url>https://github.com/CombatExtended-Continued/CombatExtendedAttachments</url>
 	<description>Version: 1.5.0.0\n\nAdds several new weapons to take advantage of CE underbarrel/secondary weapons.</description>
-	<modIconPath>UI/Icons/CE_ModIcon_JustHat</modIconPath>
+	<modIconPath IgnoreIfNoMatchingField="True">UI/Icons/CE_ModIcon_JustHat</modIconPath>
 	<supportedVersions>
 		<li>1.3</li>
 		<li>1.4</li>
