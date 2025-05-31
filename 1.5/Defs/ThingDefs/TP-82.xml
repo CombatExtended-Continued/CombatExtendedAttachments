@@ -10,6 +10,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/TP-82</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(0.92,0.92)</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Autopistol</soundInteract>
 		<statBases>
@@ -48,7 +49,8 @@
 			<li Class="CombatExtended.CompProperties_AmmoUser">
 				<magazineSize>2</magazineSize>
 				<AmmoGenPerMagOverride>4</AmmoGenPerMagOverride>
-				<reloadTime>4</reloadTime>
+				<reloadOneAtATime>true</reloadOneAtATime>
+				<reloadTime>0.85</reloadTime>
 				<ammoSet>AmmoSet_20Gauge</ammoSet>
 			</li>
 			<li Class="CombatExtended.CompProperties_FireModes">
@@ -71,7 +73,7 @@
 					<range>12</range>
 					<soundCast>Shot_AssaultRifle</soundCast>
 					<soundCastTail>GunTail_Medium</soundCastTail>
-					<muzzleFlashScale>5</muzzleFlashScale>
+					<muzzleFlashScale>9</muzzleFlashScale>
 				</verbPropsUnderBarrel>
 				<propsFireModesUnderBarrel>
 					<aiUseBurstMode>FALSE</aiUseBurstMode>
@@ -119,12 +121,6 @@
 				<linkedBodyPartsGroup>Muzzle</linkedBodyPartsGroup>
 			</li>
 		</tools>
-		<modExtensions>
-			<li Class="CombatExtended.GunDrawExtension">
-				<DrawSize>0.92,0.92</DrawSize>
-				<DrawOffset>0.0,0.0</DrawOffset>
-			</li>
-		</modExtensions>
 	</ThingDef>
 
 </Defs>

@@ -10,7 +10,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/Savage2400</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1.20,1.20)</drawSize>			
+			<drawSize>(1.2,1.2)</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<statBases>
@@ -41,7 +41,6 @@
 				<soundCast>Shot_SniperRifle</soundCast>
 				<soundCastTail>GunTail_Heavy</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
-				<recoilPattern>Regular</recoilPattern>
 			</li>
 		</verbs>
 		<weaponTags>

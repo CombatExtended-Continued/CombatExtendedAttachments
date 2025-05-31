@@ -39,7 +39,6 @@
 				<soundCast>Shot_CE_AssaultRifleSlow</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
-				<recoilPattern>Regular</recoilPattern>
 			</li>
 		</verbs>
 		<thingSetMakerTags>
@@ -78,7 +77,7 @@
 					</targetParams>
 					<soundCast>InfernoCannon_Fire</soundCast>
 					<soundCastTail>GunTail_Medium</soundCastTail>
-					<muzzleFlashScale>5</muzzleFlashScale>
+					<muzzleFlashScale>9</muzzleFlashScale>
 				</verbPropsUnderBarrel>
 				<propsFireModesUnderBarrel>
 					<aiUseBurstMode>FALSE</aiUseBurstMode>
@@ -128,7 +127,6 @@
 		</tools>
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
-				<DrawSize>1.00,1.00</DrawSize>
 				<DrawOffset>0.08,0.0</DrawOffset>
 			</li>
 		</modExtensions>

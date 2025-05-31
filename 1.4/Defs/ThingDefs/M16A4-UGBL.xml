@@ -10,6 +10,7 @@
 		<graphicData>
 			<texPath>Things/Weapons/M16A4_GL</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(1.16,1.16)</drawSize>
 		</graphicData>
 		<soundInteract>Interact_Rifle</soundInteract>
 		<statBases>
@@ -39,7 +40,6 @@
 				<soundCast>Shot_AssaultRifle</soundCast>
 				<soundCastTail>GunTail_Medium</soundCastTail>
 				<muzzleFlashScale>9</muzzleFlashScale>
-				<recoilPattern>Regular</recoilPattern>
 			</li>
 		</verbs>
 		<thingSetMakerTags>
@@ -78,7 +78,7 @@
 					</targetParams>
 					<soundCast>InfernoCannon_Fire</soundCast>
 					<soundCastTail>GunTail_Medium</soundCastTail>
-					<muzzleFlashScale>5</muzzleFlashScale>
+					<muzzleFlashScale>9</muzzleFlashScale>
 				</verbPropsUnderBarrel>
 				<propsFireModesUnderBarrel>
 					<aiUseBurstMode>FALSE</aiUseBurstMode>
@@ -128,7 +128,6 @@
 		</tools>
 		<modExtensions>
 			<li Class="CombatExtended.GunDrawExtension">
-				<DrawSize>1.16,1.16</DrawSize>
 				<DrawOffset>0.08,0.0</DrawOffset>
 			</li>
 		</modExtensions>
